@@ -2,7 +2,7 @@
 
 Welcome to the Full stack codes repository! This collection is designed primarily for beginners and intermediate learners who want to enhance their understanding and skills in web development. It emphasizes correct syntax and efficient coding practices, providing practical examples, clear explanations, and guidance tailored to help individuals grasp fundamental concepts and progress confidently in building web applications and websites.
 
-![Web Development](https://source.unsplash.com/800x600/?web-development)
+![Web Development](https://source.unsplash.com/500x350/?web-development)
 
 ## 📚 Contents
 
@@ -18,13 +18,13 @@ Welcome to the Full stack codes repository! This collection is designed primaril
 
 This section covers the basics of HTML, including tags, attributes, and document structure.
 
-![HTML Basics](https://source.unsplash.com/800x600/?html)
+![HTML Basics](https://source.unsplash.com/500x350/?html)
 
 ## Understanding CSS
 
 Learn how to style HTML elements using CSS selectors, properties, and values.
 
-![CSS Styling](https://source.unsplash.com/800x600/?css)
+![CSS Styling](https://source.unsplash.com/500x350/?css)
 
 ## Creating Layouts with Flexbox
 
@@ -48,7 +48,7 @@ Discover React, a JavaScript library for building user interfaces. Learn how to 
 
 Learn server-side scripting with PHP and how to build dynamic web pages and web applications.
 
-![PHP Development](https://source.unsplash.com/800x600/?php)
+![PHP Development](https://source.unsplash.com/500x350/?php)
 
 ## Best Practices and Efficient Coding
 
