@@ -1,0 +1,67 @@
+body {
+    height: 2000px;
+}
+
+.top {
+    width: 100vw;
+    height: 6vh;
+    color: white;
+    top: 0px;
+    background-color: black;
+    position: sticky;
+    /* An element with position: sticky; is positioned based on the user's scroll position. */
+    z-index: 1;
+
+}
+
+h1 {
+    position: static;
+    /* An element with position: static; is not positioned in any special way; it is always positioned according to the normal flow of the page: */
+}
+
+.pos {
+    margin: 40px 4px 40px 4px;
+    /* margin :top right bottom left; */
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+#rect {
+    top: 300px;
+    left: 30%;
+    height: 25vh;
+    width: 35vw;
+
+    position: relative;
+    /* An element with position: relative; is positioned relative to its normal position. */
+    background-color: red;
+}
+
+#circle {
+    position: absolute;
+    /* An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed). */
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: blue;
+    left: 39%;
+    top: 20%;
+}
+
+.content {
+    position: relative;
+    top: 400px;
+
+}
+
+.bottom {
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+    height: 6vh;
+    background-color: black;
+    color: white;
+
+}
