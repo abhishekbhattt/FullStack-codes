@@ -1,0 +1,52 @@
+body {
+    background: url("formagex.jpg")
+}
+
+.container {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top: 20%;
+    left: 35%;
+    height: 70%;
+    width: 30%;
+    background-color: rgb(178, 178, 230);
+    border-radius: 7px;
+    border: 1px solid black;
+}
+
+#photo1 {
+    height: 120px;
+    width: 120px;
+    position: relative;
+    left: 35%;
+    top: 40%;
+}
+
+.formcontainer {
+    position: relative;
+    top: 80px;
+}
+
+label {
+    font-size: large;
+    display: block;
+
+    margin: 20px;
+}
+
+.btn {
+    height: 35px;
+    width: 85px;
+    border-radius: 17px;
+    background-color: rgb(48, 48, 241);
+    font-size: 15px;
+    margin: 18px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.btn:hover {
+    background-color: blue;
+    transition: 1s;
+
+}

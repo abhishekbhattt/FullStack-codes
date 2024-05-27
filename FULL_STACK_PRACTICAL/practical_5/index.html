@@ -1,0 +1,54 @@
+<!-- Q5) Demonstrate an Ajax call using JQuery. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" type="text/css" href="formAgex.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div id="photo">
+            <img id="photo1" src="https://cdn1.iconfinder.com/data/icons/mix-color-3/502/Untitled-7-512.png"
+                alt="user_image">
+        </div>
+        <div class="formcontainer">
+
+            <form onsubmit="" class="formclass">
+                <label for="name">First name : <input type="text" class="ip" id="firstname"> </label>
+                <label for="name">Last name : <input type="text" class="ip" id="lastname"></label>
+
+                <input type="button" value="Submit" class="btn" onclick="x()"></input>
+                <input type="reset" class="btn" id="Clear" value="Clear"></input>
+            </form>
+
+        </div>
+    </div>
+
+    <script>
+        function x() {
+            $.ajax({
+                type: "GET",
+                url: "https://reqres.in/api/users/2",
+                success: function (res) {
+                    $('#firstname').val(res.data.first_name);
+                    $('#lastname').val(res.data.last_name);
+                    $('#photo').html("<img src=" + res.data.avatar + ">");
+
+                },
+                error: function () {
+                    alert("Agax call failed");
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>
