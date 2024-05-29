@@ -1,0 +1,1 @@
+**For running this project you have to create a database inside the xampp having the user table and make sure that the connection attributes that are present in _dbconnect.php file should be same as in the database** 
